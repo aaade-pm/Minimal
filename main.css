@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+}
+
+header{
+    /* border: 1px solid grey; */
+    /* padding: 10px; */
+    border-top: 0px; 
+    background-color: rgba(190, 182, 182, 0.089);
+    height: 65vh;
+}
+
+nav{
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+}
+
+#logo{
+    /* padding: 10px; */
+    border-right: 1px solid rgba(128, 128, 128, 0.486);
+    padding: 20px 5px 10px 20px;
+    font-size: 18px;
+}
+
+.right-side{
+    display: flex;
+}
+
+.navigation{
+    border-right: 1px solid rgba(128, 128, 128, 0.486);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    padding: 20px 20px 10px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.button{
+    padding: 17px 30px 10px 10px;
+}
+
+.button button{
+    color: white;
+    background-color: green;
+    border: none;
+    padding:5px 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: grey;
+}
+
+.wrap{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px 0px 0px 30px; */
+}
+
+.img-container{
+    /* border: 2px solid blue; */
+    width: 20%;
+}
+
+.img-container img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.content{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    padding-top: 30px;
+}
+
+.content h3{
+    font-size: 30px;
+}
+
+.content p{
+    margin-top: 15px;
+}
+
+.inner-content{
+    margin-top: 30px;
+    display: flex;
+}
+
+.inner-content button{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.inner-content button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: grey;
+}
+
+.text-button{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.footer-content{
+    margin-top: 15px;
+}
+
+.sec-1{
+    padding: 45px;
+}
+
+.text{
+    text-align: center;
+}
+
+.sec1-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    margin-top: 10px;
+}
+
+.sec1-box1{
+    background-color: rgba(190, 182, 182, 0.089);
+    padding: 60px 45px 25px 25px;
+}
+
+.sec1-box2{
+    background-color: green;
+    color: white;
+    padding: 60px 45px 25px 25px;
+}
+
+.sec1-box3{
+    background-color: rgba(190, 182, 182, 0.089);
+    padding: 60px 45px 20px 25px;
+}
+
+.sec1-box h4{
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 700;
+}
